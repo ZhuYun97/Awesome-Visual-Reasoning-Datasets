@@ -1,8 +1,4 @@
-Here is the updated README.
 
-I've removed **RVL-CDIP** (Document Classification) and **Kleister-NDA** (Information Extraction), as they are not primarily visual *reasoning* (like QA or logic) datasets.
-
------
 
 # 🧠 Awesome Visual Reasoning Datasets
 
