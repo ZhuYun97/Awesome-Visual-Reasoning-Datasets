@@ -28,14 +28,26 @@
 
 ## 🧮 Mathematical Reasoning
 
-| Name | Data Size | Description | Modality | Task Type | Paper Link 📄 | Hugging Face Link 🤗 |
-|---|---|---|---|---|---|---|
-| **GeoQA** | 5.8k | Geometry problem-solving with diagram understanding. | Diagram + Text | Diagram QA | [Paper 📄](https://arxiv.org/abs/2105.00530) | [Link 🤗](https://huggingface.co/datasets/TAL-AI/GeoQA) |
-| **We-Math 2.0** | N/A | Unified MathBook system with RL-based multimodal reasoning tasks. | Image + Text | CoT, RL fine-tuning | [Paper 📄](https://arxiv.org/abs/2508.10433) | [Link 🤗](https://huggingface.co/datasets/we-math/WeMath2.0) |
-| **MM-MathInstruct** | N/A | Instruction-tuning dataset for multimodal math reasoning models. | Image + Text | Instruction tuning | N/A | [Link 🤗](https://huggingface.co/MathLLMs/MM-MathInstruct) |
-| **Geo170K** | \~170K | Large synthetic geometric dataset for diagram-based QA and reasoning. | Image + Text | Geometry QA | [Paper 📄](https://arxiv.org/abs/2404.09341) | [Link 🤗](https://huggingface.co/datasets/G-LLaVA/Geo170K) |
 
------
+| Name                | Data Size | Description                                                                                  | Modality       | Task Type               | Paper Link 📄                                | Hugging Face Link 🤗                                             |
+| ------------------- | --------- | -------------------------------------------------------------------------------------------- | -------------- | ----------------------- | -------------------------------------------- | ---------------------------------------------------------------- |
+| **GeoQA**           | 5.8k      | Geometry problem-solving with diagram understanding.                                         | Diagram + Text | Diagram QA              | [Paper 📄](https://arxiv.org/abs/2105.00530) | [Link 🤗](https://huggingface.co/datasets/TAL-AI/GeoQA)          |
+| **GeoQA+**          | 10k       | Extended GeoQA dataset with more complex geometry reasoning and richer annotations.          | Diagram + Text | Diagram QA              | [Paper 📄](https://arxiv.org/abs/2210.10598) | [Link 🤗](https://huggingface.co/datasets/AI4Math/GeoQAPlus)     |
+| **Geometry3K**      | 3k        | Diagram-based geometry question-answer pairs focusing on shape and relation reasoning.       | Image + Text   | Diagram QA              | [Paper 📄](https://arxiv.org/abs/2106.11976) | [Link 🤗](https://huggingface.co/datasets/geometry3k/geometry3k) |
+| **GeomVerse**       | 60k       | Large-scale multimodal geometry dataset combining synthetic and human-written problems.      | Image + Text   | Geometry QA             | [Paper 📄](https://arxiv.org/abs/2401.14852) | [Link 🤗](https://huggingface.co/datasets/geomverse/GeomVerse)   |
+| **Geo170K**         | ~170k     | Large synthetic geometric dataset for diagram-based QA and reasoning.                        | Image + Text   | Geometry QA             | [Paper 📄](https://arxiv.org/abs/2404.09341) | [Link 🤗](https://huggingface.co/datasets/G-LLaVA/Geo170K)       |
+| **MM-MathInstruct** | 290k      | Instruction-tuning dataset for multimodal mathematical reasoning models.                     | Image + Text   | Instruction Tuning      | [Paper 📄](https://arxiv.org/abs/2502.07531) | [Link 🤗](https://huggingface.co/MathLLMs/MM-MathInstruct)       |
+| **MathV360K**       | 360k      | Multimodal dataset containing diverse math visual reasoning problems.                        | Image + Text   | Visual QA, Reasoning    | [Paper 📄](https://arxiv.org/abs/2403.08593) | [Link 🤗](https://huggingface.co/datasets/MathVerse/MathV360K)   |
+| **MultiMath**       | 210k      | Multilingual and multimodal math reasoning dataset across algebra, geometry, and calculus.   | Image + Text   | CoT, Instruction Tuning | [Paper 📄](https://arxiv.org/abs/2406.05134) | [Link 🤗](https://huggingface.co/datasets/MultiMath/MultiMath)   |
+| **MATH**            | 12k       | Benchmark for advanced math problem-solving in competition-level questions.                  | Text           | Text QA                 | [Paper 📄](https://arxiv.org/abs/2103.03874) | [Link 🤗](https://huggingface.co/datasets/hendrycks/Math)        |
+| **MathVision**      | 100k      | Benchmark for visual mathematical reasoning combining OCR-free vision and logical deduction. | Image + Text   | Visual QA, CoT          | [Paper 📄](https://arxiv.org/abs/2401.02865) | [Link 🤗](https://huggingface.co/datasets/MathVision/MathVision) |
+| **CLEVR-Math**      | 100k      | Synthetic dataset combining CLEVR visual scenes with symbolic math expressions.              | Image + Text   | Visual Reasoning        | [Paper 📄](https://arxiv.org/abs/2212.01500) | [Link 🤗](https://huggingface.co/datasets/CLEVR-Math/CLEVR-Math) |
+| **IconQA**          | 187k      | Diagram-based commonsense and geometry QA dataset with symbolic reasoning.                   | Image + Text   | Diagram QA, CoT         | [Paper 📄](https://arxiv.org/abs/2109.09475) | [Link 🤗](https://huggingface.co/datasets/AI4Math/IconQA)        |
+| **MAVIS-Instruct**  | 1.2M      | Multimodal instruction dataset focused on math and vision-grounded tasks.                    | Image + Text   | Instruction Tuning      | [Paper 📄](https://arxiv.org/abs/2403.09327) | [Link 🤗](https://huggingface.co/datasets/MAVIS/MAVIS-Instruct)  |
+| **RCoT**            | 200k      | Reasoning Chain-of-Thought dataset for structured multimodal mathematical problem solving.   | Image + Text   | CoT, Step Reasoning     | [Paper 📄](https://arxiv.org/abs/2406.01957) | [Link 🤗](https://huggingface.co/datasets/RCoT/RCoT)             |
+| **We-Math 2.0**     | N/A       | Unified MathBook system with RL-based multimodal reasoning tasks.                            | Image + Text   | CoT, RL Fine-tuning     | [Paper 📄](https://arxiv.org/abs/2508.10433) | [Link 🤗](https://huggingface.co/datasets/we-math/WeMath2.0)     |
+
+---
 
 ## 🔬 Scientific Reasoning
 
