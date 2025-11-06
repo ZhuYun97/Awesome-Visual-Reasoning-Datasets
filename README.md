@@ -45,7 +45,7 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>🔬 Scientific Reasoning</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
@@ -59,7 +59,7 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>📐 Spatial & Geometric Reasoning</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
@@ -73,7 +73,7 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>🧩 Commonsense Reasoning</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
@@ -86,7 +86,7 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>📊 Chart, Diagram & Figure Reasoning</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
@@ -100,7 +100,7 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>🌆 Scene & Object Understanding</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
@@ -113,7 +113,7 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>💬 Multimodal Logical Reasoning</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
@@ -127,7 +127,7 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>🧱 Synthetic & Programmatic Datasets</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
@@ -140,13 +140,22 @@
 
 ---
 
-<details>
+<details open>
 <summary><h2>🔗 Hybrid Datasets</h2></summary>
 
 | Dataset | Description | Source | Modality | Size | Task Type |
 |----------|-------------|---------|-----------|------|-----------|
-| **MMR1** | Multimodal long-CoT reasoning dataset for SFT + RL pipelines. | [🤗 HF](https://huggingface.co/datasets/MMR1) | Image + Text | Millions | Long CoT QA |
-| **Vision-G1** | Multi-domain RL-ready reasoning dataset curated from 46 sources (math, spatial, GUI, commonsense, etc.). | [🤗 HF](https://huggingface.co/datasets/vision-g1) • [arXiv](https://arxiv.org/abs/2410.11890) | Image + Text | – | Multimodal QA, RL training |
+| **MMR1**                             | Multimodal long-chain-of-thought reasoning dataset designed for SFT and RL training pipelines.                                     | [🤗 Hugging Face](https://huggingface.co/datasets/MMR1)                                                              | Image + Text           | Millions                           | Long CoT QA                     |
+| **Vision-G1**                        | Multi-domain reasoning dataset (46 sources: math, spatial, GUI, commonsense, etc.) curated for RL-based training and evaluation.   | [🤗 HF](https://huggingface.co/datasets/vision-g1) • [arXiv](https://arxiv.org/abs/2410.11890)                       | Image + Text           | –                                  | Multimodal QA, RL training      |
+| **FineVision**                       | Large-scale open multimodal corpus covering VQA, OCR, charts, GUI, and more. Designed for pretraining and instruction tuning.      | [🤗 HF — HuggingFaceM4/FineVision](https://huggingface.co/datasets/HuggingFaceM4/FineVision)                         | Image + Text           | 17M+ images / 24M+ samples         | Multimodal QA, GUI, OCR         |
+| **LLaVA-OneVision (1.5)**            | Fully open LMM training framework and corpora, including pretraining and instruction datasets (OneVision-1.5 family).              | [🤗 HF / GitHub Project](https://huggingface.co/collections/liuhaotian/llava-onevision-1.5-66f1d5e5e7c3c9a58b98600a) | Image + Text           | 85M pretrain + 22M instruct        | Pretraining, Instruction tuning |
+| **LLaVA-OneVision-1.5-Instruct**     | Instruction-tuning subset (SFT splits) from the OneVision family for efficient multimodal instruction tuning.                      | [🤗 HF — LLaVA-OneVision](https://huggingface.co/liuhaotian/LLaVA-OneVision-1.5-Instruct)                            | Image + Text           | Millions                           | Visual instruction tuning       |
+| **Infinity-MM**                      | Large multimodal instruction dataset (by BAAI) with tens of millions of curated, high-quality instruction samples for VLM scaling. | [🤗 HF — Infinity-MM](https://huggingface.co/datasets/BAAI/Infinity-MM)                                              | Image + Text           | Tens of millions                   | Instruction tuning, QA          |
+| **Cambrian-10M**                     | 10M multimodal instruction samples balancing visual and linguistic signals for robust instruction tuning.                          | [🤗 HF — Cambrian-10M](https://huggingface.co/datasets/Cambrian-10M)                                                 | Image + Text           | ~10M                               | Instruction tuning              |
+| **MAmmoTH-VL / MAmmoTH-VL-Instruct** | Multimodal dataset family for visual reasoning and instruction tuning (e.g., MAmmoTH-VL-Instruct-12M).                             | [🤗 HF — MAmmoTH-VL](https://huggingface.co/datasets/MMath/VL) • [GitHub](https://github.com/MAmmoTH-VL)             | Image + Text           | Multi-million (e.g., 12M instruct) | Pretraining, Instruction tuning |
+| **CoSyn-400K**                       | Procedurally generated synthetic image–QA pairs for enhancing VQA diversity and robustness.                                        | [🤗 HF — allenai/CoSyn-400K](https://huggingface.co/datasets/allenai/CoSyn-400K)                                     | Synthetic Image + Text | 400K                               | Synthetic QA generation         |
+
+
 
 </details>
 
@@ -154,7 +163,6 @@
 
 ## 📚 References
 
-- *Visual Reasoning Datasets and Benchmarks* — AI2, Stanford, Meta AI, DeepMind, Tsinghua University.  
 - **Surveys**
   - [A Survey on Visual Reasoning (2023)](https://arxiv.org/abs/2306.04862)  
   - [Multimodal Reasoning in VLMs (2024)](https://arxiv.org/abs/2402.08000)
